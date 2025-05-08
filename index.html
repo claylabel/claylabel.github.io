@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Photo Slideshow - Ken Burns Effect</title>
+  <title>Minnaloushe</title>
   <style>
     html, body {
       margin: 0;
@@ -26,8 +26,8 @@
       object-fit: cover;
       opacity: 0;
       transform: scale(1.1);
-      animation: zoom 10s ease-in-out infinite;
-      transition: opacity 0s ease-in-out;
+      animation: zoom 12s ease-in-out infinite;
+      transition: opacity 2s ease-in-out;
     }
 
     .slideshow img.active {
@@ -64,7 +64,7 @@
       images[current].classList.add("active");
     }
 
-    setInterval(showNextImage, 8000); // Change every 7 seconds
+    setInterval(showNextImage, 8000); // Change every 10 seconds
   </script>
 </body>
 </html>
