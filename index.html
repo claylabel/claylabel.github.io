@@ -43,6 +43,15 @@
         transform: scale(1.2);
       }
     }
+.logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px; /* adjust as needed */
+  z-index: 10;
+  pointer-events: none;
+}
   </style>
 </head>
 <body>
@@ -66,5 +75,6 @@
 
     setInterval(showNextImage, 8000); // Change every 10 seconds
   </script>
+  <img src="photos/logo.png" alt="Logo" class="logo">
 </body>
 </html>
